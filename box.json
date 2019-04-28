@@ -1,8 +1,8 @@
 {
     "name":"TitleTag Plugin",
-    "version":"1.0.1",
+    "version":"1.0.2",
     "author":"Chris Geirman",
-    "location":"geirman/cfwheels-titletag-plugin#v1.0.1",
+    "location":"geirman/cfwheels-titletag-plugin#v1.0.2",
     "directory":"/plugins/",
     "createPackageDirectory":true,
     "packageDirectory":"TitleTag",
