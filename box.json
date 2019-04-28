@@ -1,0 +1,22 @@
+{
+    "name": "TitleTag Plugin",
+    "version": "1.0.0",
+    "author": "Chris Geirman",
+    "location": "geirman/cfwheels-titletag-plugin",
+    "directory": "/plugins/",
+    "createPackageDirectory": true,
+    "packageDirectory": "TitleTag",
+    "slug": "cfwheels-titletag-plugin",
+    "type": "cfwheels-plugins",
+    "homepage": "https://github.com/geirman/cfwheels-titletag-plugin",
+    "shortDescription": "DRY up your title tags. Allows you to define each page's title within it's view.",
+    "keywords": "title",
+    "private": false,
+    "scripts": {
+        "postVersion": "package set location='geirman/cfwheels-titletag-plugin#v`package version`'",
+        "postPublish": "!git push --follow-tags",
+        "patch-release": "bump --patch && publish",
+        "minor-release": "bump --minor && publish",
+        "major-release": "bump --major && publish"
+    }
+}
